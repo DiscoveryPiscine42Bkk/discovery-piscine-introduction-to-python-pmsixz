@@ -1,3 +1,1 @@
-?> python3 42.py | cat -e
-42$
-?>
+print(42)
