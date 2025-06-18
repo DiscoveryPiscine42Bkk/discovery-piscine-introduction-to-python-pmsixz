@@ -7,7 +7,6 @@ else:
 
 z_count = input_string.count('z')
 
-# แสดงผล
 if z_count > 0:
     print('z' * z_count)
 else:
