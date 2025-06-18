@@ -1,0 +1,10 @@
+arr = [2, 8, 9, 48, 8, 22, -12, 2]
+
+# Print original array
+print(arr)
+
+# Transform each element (example: add 2) and use a set to remove duplicates
+transformed = {x + 2 for x in arr}
+
+# Print transformed values without duplicates
+print(transformed)
